@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(24, 221, 24);
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: greenyellow;
+}
+
+
+#loginWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    height: 120px;
+    width: 200px;
+}
+
+#exitBnt {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#logo {
+    margin-bottom: 10px;
+}
+
+#logo a {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: green;    
+}
+
+#menu {
+    width: 100%;
+    background-color: rgb(24, 221, 24);
+    height: 50px;
+}
+
+#registrationContainer {
+    background-color: #f1f1f1;
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 40px 40px 40px;
+}
+
+#registrationHeader {
+    text-align: center;
+}
+
+#registrationContainer input {
+    width: 100%;
+    margin: 10px 0px 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+}
+
+#registrationContainer #submitBtn {
+    background-color: rgb(24, 221, 24);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#searchForm input {
+    padding: 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;    
+}
+
+td {
+    text-align: center;
+}
+
+
+
+.profileLink {
+    float: right;
+}
